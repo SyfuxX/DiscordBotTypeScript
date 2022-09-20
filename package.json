@@ -1,6 +1,6 @@
 {
   "name": "DiscordBotTypeScript",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Template to start directly with TypeScript.",
   "main": "./prod/index.js",
   "scripts": {
@@ -10,16 +10,16 @@
   "author": "SyfuxX",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/builders": "^1.0.0",
-    "@discordjs/rest": "^1.0.0",
-    "discord-api-types": "^0.36.3",
-    "discord.js": "^14.0.3",
-    "dotenv": "^16.0.1",
-    "fs": "^0.0.1-security",
+    "@discordjs/builders": "^1.2.0",
+    "@discordjs/rest": "^1.1.0",
+    "discord-api-types": "^0.37.10",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2",
+    "fs": "^0.0.2",
     "mysql2": "^2.3.3"
   },
   "devDependencies": {
-    "@types/node": "^18.0.6",
-    "typescript": "^4.7.4"
+    "@types/node": "^18.7.18",
+    "typescript": "^4.8.3"
   }
 }
