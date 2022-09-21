@@ -4,9 +4,10 @@ import { CommandInterface } from '../models/command.interface';
 
 export const command: CommandInterface = {
   name: 'commandName',
-  // @ts-ignore
   data: null,
   run: async (interaction: CommandInteraction) => {
+    await interaction.deferReply({ ephemeral: true });
+    
     consoleLog('Do something!');
   }
 }
