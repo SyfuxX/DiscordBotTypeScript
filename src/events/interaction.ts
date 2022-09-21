@@ -1,6 +1,10 @@
 import { Interaction } from 'discord.js';
-import { executeSlashCommand } from '../functions/command/executeCommand';
+import {
+  executeSelectMenu,
+  executeSlashCommand,
+} from '../functions/command/executeCommand';
 
 export const onInteraction = async (interaction: Interaction) => {
   if (interaction.isChatInputCommand()) await executeSlashCommand(interaction);
+  if (interaction.isSelectMenu()) await executeSelectMenu(interaction);
 }
