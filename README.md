@@ -12,6 +12,13 @@
 5. Use `yarn build`, to build the project.
 6. Use `yarn start`, to start the bot.
 
+### Compiling and starting your Bot
+
+1. To build your bot, write `yarn build` in your Terminal.
+2. To run your bot, write `yarn start`.
+
+*If you want to adjust your commands, take a look at the `package.json` file.*
+
 ## Getting started (using npm)
 
 1. Create a new project based on this template project.
@@ -21,6 +28,13 @@
 5. Copy your discord bot token over into the `.env` file `DISCORD_TOKEN=`.
 6. Use `npm build`, to build the project.
 7. Use `npm start`, to start the bot.
+
+### Compiling and starting your Bot
+
+1. To build your bot, write `npm build` in your Terminal.
+2. To run your bot, write `npm start`.
+
+*If you want to adjust your commands, take a look at the `package.json` file.*
 
 ## Folder structure
 
