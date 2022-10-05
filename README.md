@@ -1,6 +1,7 @@
 # DiscordBotTypeScript (Template)
 *Node version 16 needed.*  
-*Discord version 14.*  
+*Discord version 14.x.x.*
+
 *If you need help, join my [Discord](https://dc.syfuxx.de/).*
 
 ## Getting started (using yarn)
@@ -41,13 +42,17 @@
 *This is a basic structure I use, you don't have to.*
 
 ./DiscordBotTypeScript  
----/prod/ - Production folder  
+---/prod/ - Production folder *(Generated on building)*  
 ---/src/ - Source folder  
 ---/---/api/ - API folder  
+---/---/assets/ - Assets folder  
 ---/---/commands/ - Commands folder  
 ---/---/config/ - Config folder  
----/---/events/ - Events folder
+---/---/events/ - Events folder  
 ---/---/functions/ - Functions folder  
+---/---/---/command - Command functions folder  
+---/---/---/console - Console functions folder  
+---/---/---/date - Date & Time functions folder  
 ---/---/models/ - Models folder  
 ---/---/utils/ - Utilities folder
 
