@@ -1,6 +1,6 @@
 {
   "name": "DiscordBotTypeScript",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Template to start directly with TypeScript.",
   "main": "./prod/index.js",
   "scripts": {

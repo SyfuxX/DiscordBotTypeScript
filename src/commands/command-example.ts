@@ -1,6 +1,6 @@
 import { CommandInteraction } from 'discord.js';
 import { consoleLog } from '../functions/console/logging';
-import { CommandInterface } from '../models/command.interface';
+import { CommandInterface } from '../models/interfaces/command.interface';
 
 export const command: CommandInterface = {
   name: 'commandName',

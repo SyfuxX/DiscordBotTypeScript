@@ -3,7 +3,7 @@ import { Routes } from 'discord-api-types/v10';
 import { Client } from 'discord.js';
 import * as fs from 'fs';
 import { CommandCollection } from '../../index';
-import { ConsoleColorEnum } from '../../models/consoleColor.enum';
+import { ConsoleColorEnum } from '../../models/enums/consoleColor.enum';
 import { consoleLog } from '../console/logging';
 
 /**

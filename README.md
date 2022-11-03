@@ -54,6 +54,9 @@
 ---/---/---/console - Console functions folder  
 ---/---/---/date - Date & Time functions folder  
 ---/---/models/ - Models folder  
+---/---/---/dtos - Data Transfer Objects folder
+---/---/---/enums - Enums folder
+---/---/---/interfaces - Interfaces folder
 ---/---/utils/ - Utilities folder
 
 ## Suggestions

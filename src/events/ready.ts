@@ -1,7 +1,7 @@
 import { Client } from 'discord.js';
 import { loadCommandFiles } from '../functions/command/loadCommands';
 import { consoleLog } from '../functions/console/logging';
-import { ConsoleColorEnum } from '../models/consoleColor.enum';
+import { ConsoleColorEnum } from '../models/enums/consoleColor.enum';
 
 export const onReady = async (BOT: Client) => {
   await loadCommandFiles(BOT);

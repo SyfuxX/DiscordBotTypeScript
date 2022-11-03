@@ -1,4 +1,4 @@
-import { ConsoleColorEnum } from '../../models/consoleColor.enum';
+import { ConsoleColorEnum } from '../../models/enums/consoleColor.enum';
 import { dateTime } from '../date/dateTime';
 
 /**

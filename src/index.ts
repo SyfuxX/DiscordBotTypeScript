@@ -7,8 +7,8 @@ import { IntentOptions } from './config/IntentOptions';
 import { onInteraction } from './events/interaction';
 import { onReady } from './events/ready';
 import { consoleLog } from './functions/console/logging';
-import { CommandInterface } from './models/command.interface';
-import { ConsoleColorEnum } from './models/consoleColor.enum';
+import { ConsoleColorEnum } from './models/enums/consoleColor.enum';
+import { CommandInterface } from './models/interfaces/command.interface';
 import { validateEnv } from './utils/validateEnv';
 
 export const CommandCollection: Collection<string, CommandInterface> = new Collection();
